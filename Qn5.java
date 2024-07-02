@@ -53,4 +53,23 @@ Output (stdout)
 NO
 
 CODE(JAVA):
+     
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        int k = scanner.nextInt();
+        int t = (n * m) / k;
+        if (t>0 && (n*m)%k==0) {
+            System.out.println("YES");
+            return;
+        } 
+        else{
+          System.out.println("NO");
+        }
+    }
+}
 
