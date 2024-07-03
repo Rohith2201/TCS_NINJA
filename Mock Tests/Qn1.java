@@ -21,6 +21,8 @@ Sample Output
 5 4 3 2 1
 
 CODE:
+import java.util.Scanner;
+
 class Node {
     int data;
     Node prev, next;
